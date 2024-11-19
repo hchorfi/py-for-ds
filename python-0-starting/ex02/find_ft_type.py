@@ -1,12 +1,3 @@
-# List : <class 'list'>$
-# Tuple : <class 'tuple'>$
-# Set : <class 'set'>$
-# Dict : <class 'dict'>$
-# Brian is in the kitchen : <class 'str'>$
-# Toto is in the kitchen : <class 'str'>$
-# Type not found$
-# 42$
-
 def all_thing_is_obj(object: any) -> int:
     obj_type = type(object)
     if isinstance(object, (list, tuple, set, dict)):
